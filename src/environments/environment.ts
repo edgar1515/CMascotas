@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyDwohyjZNywZJNSUcK6YvDBuS8Ajnf9Uio",
+    authDomain: "controlmascota.firebaseapp.com",
+    databaseURL: "https://controlmascota.firebaseio.com",
+    projectId: "controlmascota",
+    storageBucket: "controlmascota.appspot.com",
+    messagingSenderId: "166361956789",
+    appId: "1:166361956789:web:c9d83711ba1bff9bd299fc",
+    measurementId: "G-HBVKSYHFPG"
+  }
 };
 
 /*
